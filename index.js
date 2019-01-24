@@ -9,7 +9,7 @@ const DB = {
 let dbo;
 
 app.get('/', function (req, res) {
-	res.json({ "hello": "express with mongo" });
+	res.json({ "hello": "express with mongo2" });
 });
 
 const client = mongodb.MongoClient;
